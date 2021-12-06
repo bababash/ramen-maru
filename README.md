@@ -1,41 +1,66 @@
-# Gatsby Theme Link Free
+<h1 align="center">🌲 Linktree</h1>
+<h3 align="center">Simple site to group all my profiles on social networks in one place.</h3>
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/marscollective/link-free&stack=cms)
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/JohnEmerson1406/linktree?color=04D361&labelColor=000000">
+  
+  <a href="https://www.linkedin.com/in/johnemerson1406/">
+    <img alt="Made by" src="https://img.shields.io/static/v1?label=made%20by&message=John%20Emerson&color=04D361&labelColor=000000">
+  </a>
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JohnEmerson1406/linktree?color=04D361&labelColor=000000">
+  
+  <a href="https://github.com/JohnEmerson1406/linktree/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JohnEmerson1406/linktree?color=04D361&labelColor=000000">
+  </a>
+</p>
 
-Link Free is an open-source alternative to paid, limited tools like [Linktree](https://linktr.ee/).
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-![Link Free interface](content/link-free.png)
+---
 
-It is developed by [Mars](https://marscollective.co/) using the Jamstack architecture, combining the power of Gatsby (React and GraphQL) with Tailwind CSS and Netlify CMS to provide a fast, reliable, and fully customizable tool, _served_ by the Netlify CDN. 🚀
+<p align="center">
+  <img alt="Layout" src="https://user-images.githubusercontent.com/43749971/77254747-c0b54280-6c41-11ea-81a0-a597ee22b56e.png">
+</p>
 
-You can see it in action by visiting [our Link Free page](https://links.marscollective.co/) 🌎, and while you're at it, go have a look at our social networks. 😉
+---
 
-## Why use it?
+## 💡 About the project
 
-Social networks like Instagram and TikTok do not provide support for clickable links on post captions. To circumvent this limitation, tools like Linktree appeared, providing users the ability to use their profile URL field to direct viewers to multiple destinations.
+This is an open source project that serves as a free alternative to the Linktree website.
+- [Demo](https://johnemerson1406.github.io/linktree)
 
-While these tools are simple by design, we consider them to be more expensive and less customizable than they should. Using Linktree as an example, the free version doesn't even provide a proper color customization option, and even the paid version doesn't allow you to serve your page using a custom domain.
+## 🚀 Getting started
 
-## Available features
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+[Download the ZIP from this location](https://github.com/JohnEmerson1406/linktree/archive/master.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+```bash
+git clone https://github.com/JohnEmerson1406/linktree
+```
+- Once the files are on your machine, open the _linktree_ folder in [Visual Studio Code](https://code.visualstudio.com/).
+- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+- Change the profile image and texts in the `index.html` file.
+- Change the colors and fonts in the `style.css` file.
+- To change the background, go to the `style.css` file on line 17, uncomment the code snippet and change the url to whatever image you want.
 
-Other than creating a link list, currently, you can:
+## 🤔 How to contribute
 
-- Add a custom logo;
-- Add a custom favicon;
-- Integrate Google Analytics or Google Tag Manager with just an ID;
-- Freely customize buttons, background, and font colors;
-- Customize the button's border-radius (make it square or rounder).
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m "feat: my new feature"`;
+- Push to your branch: `git push origin my-feature`.
 
-You can also live preview all your changes while you work on them.
+Once your pull request has been merged, you can delete your branch.
 
-## Deploying your Link Free
+## 📝 License
 
-Just click the "Netlify" button at the top of this README. Yup, that's it. 😄
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
-You just have to follow the instructions and you'll have a copy of our repository, with even our links so you can get used to the admin panel.
+---
 
-## License and contributions
-
-This project is open source and you're free to fork and remix it to fit your needs.
-
-If there's any feature you'd like to see implemented, we'd love to see your feedback on our [issues page](https://github.com/marscollective/link-free/issues). While we can't promise to develop every request, we're happy to accept community contributions.
+Made with ❤️ by John Emerson :wave: [Get in touch](https://johnemerson1406.github.io/linktree)
