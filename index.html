@@ -1,55 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramen Maru - Home</title>
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <!-- Font Awesome icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <!-- Core theme CSS -->
-    <link rel="stylesheet" href="style.css">
-
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>RAMEN MARU</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap Icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- glightbox plugin CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <!-- font awesome-->
+    <script
+      src="https://kit.fontawesome.com/708dbd3ac4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYQ7GDE8X8"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZYQ7GDE8X8"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-ZYQ7GDE8X8');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ZYQ7GDE8X8");
     </script>
   </head>
 
-  <body>
-    <!-- Parallax Pixel Background Animation -->
-    <section class="animated-background">
-      <div id="stars1"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+      id="mainNav"
+    >
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#page-top">
+          <img
+            src="assets/img/maru-logo-transparent-crop.png"
+            height="30"
+            class="d-inline-block align-middle"
+            alt=""
+          />
+          RAMEN MARU
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="https://mryum.com/demo" target="_blank">ORDER</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#menu">MENU</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story">STORY</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+      <div class="container px-4 px-lg-5 h-100">
+        <div
+          class="
+            row
+            gx-4 gx-lg-5
+            h-100
+            align-items-center
+            justify-content-center
+            text-center
+          "
+        >
+          <div class="col-lg-8 align-self-end">
+            <h1 class="text-white font-weight-bold">RAMEN MARU</h1>
+            <hr class="divider" />
+          </div>
+          <div class="col-lg-8 align-self-baseline">
+            <h1 class="text-white font-weight-bold mb-5">いらっしゃいませ！</h1>
+            <a class="btn btn-primary btn-xl" href="https://mryum.com/demo" target="_blank"
+              >ORDER NOW</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Menu-->
+    <section id="menu">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-xs-12 p-0">
+            <a
+              class="menu-box"
+              href="assets/img/menu/fullsize/shio.jpg"
+              data-glightbox="title:CHICKEN CHINTAN SHIO; description: .custom-shio"
+            >
+              <img
+                class="img-fluid"
+                src="assets/img/menu/thumbnails/shio.jpg"
+                alt="CHICKEN CHINTAN SHIO"
+              />
+              <div class="menu-box-caption">
+                <div class="project-name">CHICKEN CHINTAN SHIO</div>
+              </div>
+            </a>
+            <div class="glightbox-desc custom-shio">
+              <div class="glightbox-text">
+                <p>
+                  A refined chicken broth with Maru’s dashi, shio & chicken oil.
+                </p>
+                <p>
+                  Toppings include: Thin cut poached chicken, whole smoked egg,
+                  yuzu kawa, white onion, chicken oil, green leaf & handmade
+                  noodles.
+                </p>
+                <hr class="divider" />
+                <p>
+                  Maru’s Dashi: A custom blend of local and Japanese dried fish
+                  with kombu, shiitake and sake
+                </p>
+                <p>Shio: Salt</p>
+                <p>Yuzu Kawa: Japanese yuzu skin</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xs-12 p-0">
+            <a
+              class="menu-box"
+              href="assets/img/menu/fullsize/veg.jpg"
+              data-glightbox="title:VEGETARIAN MISO; description: .custom-veg"
+            >
+              <img
+                class="img-fluid"
+                src="assets/img/menu/thumbnails/veg.jpg"
+                alt="VEGETARIAN MISO"
+              />
+              <div class="menu-box-caption">
+                <div class="project-name">VEGETARIAN MISO</div>
+              </div>
+            </a>
+            <div class="glightbox-desc custom-veg">
+              <div class="glightbox-text">
+                <p>
+                  Red miso broth with oat milk, seasonal vegetables, ginger,
+                  garlic & Maru’s vegetarian dashi.
+                </p>
+                <p>
+                  Toppings Include: Age nasu, whole smoked egg, red onion, pea
+                  sprouts, burnt garlic oil & handmade noodles.
+                </p>
+                <hr class="divider" />
+                <p>
+                  Red Miso (Aka Miso): Small grain fermented soybean paste,
+                  fried eggplant, onion, smoked egg,burnt garlic oil, and
+                  handmade noodles.
+                </p>
+                <p>Age Nasu: Fried eggplant</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xs-12 p-0">
+            <a
+              class="menu-box"
+              href="assets/img/menu/fullsize/shoyu.jpg"
+              data-glightbox="title:CHICKEN CHINTAN SHOYU; description: .custom-shoyu"
+            >
+              <img
+                class="img-fluid"
+                src="assets/img/menu/thumbnails/shoyu.jpg"
+                alt="CHICKEN CHINTAN SHOYU"
+              />
+              <div class="menu-box-caption">
+                <div class="project-name">CHICKEN CHINTAN SHOYU</div>
+              </div>
+            </a>
+            <div class="glightbox-desc custom-shoyu">
+              <div class="glightbox-text">
+                <p>
+                  A refined chicken broth with Maru’s dashi, shoyu tare &
+                  chicken oil.
+                </p>
+                <p>
+                  Toppings include: Thin cut poached chicken, whole smoked egg,
+                  bbq negi, white onion, chicken oil & handmade noodles.
+                </p>
+                <hr class="divider" />
+                <p>Chintan (清湯) means clear soup.</p>
+                <p>
+                  Maru’s Dashi: A custom blend of local and Japanese dried fish
+                  with kombu, shiitake and sake
+                </p>
+                <p>
+                  Shoyu Tare: Made with koikuchi soy sauce (a less salty soy).
+                </p>
+                <p>Negi: Spring onion.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xs-12 p-0">
+            <a
+              class="menu-box"
+              href="assets/img/menu/fullsize/paitan.jpg"
+              data-glightbox="title:CHICKEN PAITAN; description: .custom-paitan"
+            >
+              <img
+                class="img-fluid"
+                src="assets/img/menu/thumbnails/paitan.jpg"
+                alt="CHICKEN PAITAN"
+              />
+              <div class="menu-box-caption">
+                <div class="project-name">CHICKEN PAITAN</div>
+              </div>
+            </a>
+            <div class="glightbox-desc custom-paitan">
+              <div class="glightbox-text">
+                <p>
+                  A thick creamy chicken broth with hand made dashi, shoyu tare
+                  & chicken oil.
+                </p>
+                <p>
+                  Toppings include: Thick cut poached chicken, whole smoked egg,
+                  crispy parsnip, red onion, burnt garlic & handmade noodles.
+                </p>
+                <hr class="divider" />
+                <p>Paitan (鳥白湯) means cloudy soup.</p>
+                <p>
+                  Maru’s Dashi: A custom blend of local and Japanese dried fish
+                  with kombu, shiitake and sake
+                </p>
+                <p>
+                  Shoyu Tare: Made with koikuchi soy sauce (a less salty soy).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- End of Parallax Pixel Background Animation -->
+    <!-- Order-->
+    <section class="bg-secondary text-white" id="order">
+      <div class="container px-4 px-lg-5 text-center">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-4 col-xl-3">
+            <a href="https://mryum.com/demo" target="_blank">
+              <img
+                src="assets/img/mryum.png"
+                class="img-fluid"
+                alt="Order Now on Mr Yum"
+              />
+            </a>
+          </div>
+          <div class="col"></div>
+        </div>
+        <a class="btn btn-light btn-xl" href="https://mryum.com/demo"
+        target="_blank">Order Now on Mr Yum</a
+        >
+      </div>
+    </section>
+    <!-- Story-->
+    <section class="page-section" id="story">
+      <div class="container px-4 px-md-5">
+        <h2 class="text-center mt-0 text-white">STORY OF MARU</h2>
+        <hr class="divider" />
+        <div class="container">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-xl-6">
+              <img
+                src="assets/img/story-crop.png"
+                class="img-fluid"
+                alt="Story of Maru"
+              />
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+        <hr class="divider" />
 
-    <div id="profilePicture">
-      <img src="MaruLogoWhite.png" alt="Ramen Maru">
-    </div>
+        <div class="container text-white">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-xl-8 text-center">
+              <p>
+                Managing to escape during Melbourne's second lockdown, Maru
+                moved to Osaka as an “English Teacher”, however teaching was not
+                on the menu.
+              </p>
+              <p>
+                Learning enough Japanese to navigate through a job interview,
+                Maru landed in the forefront of the Ramen scene. New trends,
+                broth technique, noodle making and flavour combination were all
+                on the radar during the limited time Maru had.
+              </p>
+              <p>
+                Observing the methods of hand made dashi from boss Yugo and the
+                key to perfect noodle ‘mochi mochi’ texture from the expert and
+                comedian Kenji.
+              </p>
+              <p>
+                These experiences, memories and flavours are all combined to
+                create each proper bowl of Ramen Maru.
+              </p>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div id="userName">
-      Ramen Maru
-    </div>
+    <!-- Footer-->
+    <footer class="bg-light py-5">
+      <div class="container px-4 px-lg-5">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-4 col-xl-3">
+            <img
+              src="assets/img/mryum.png"
+              class="img-fluid"
+              alt="Order Now on Mr Yum"
+            />
+          </div>
+          <div class="col"></div>
+        </div>
 
-    <div id="links">
-      <a class="link" href="story.html">
-        Story of Maru
-      </a>
-      <a class="link" href="https://www.mryum.com/demo/pickup?sheet=order-window/" target="_blank">
-        Order Online
-      </a>
-      <a class="link" href="https://www.instagram.com/letsgetmaru/" target="_blank">
-        Instagram
-      </a>
-    </div>
-
+        <div class="text-center">
+          <a class="btn btn-block btn-social btn-instagram">
+            <span class="fa fa-instagram"></span> Follow us on instagram</a
+          >
+          <a class="btn btn-block btn-social btn-mail">
+            <span class="fa fa-envelope-open"></span> Send us an email</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script> -->
+    <!-- glightbox plugin JS-->
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
   </body>
 </html>
