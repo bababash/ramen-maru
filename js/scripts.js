@@ -62,7 +62,7 @@ window.addEventListener('DOMContentLoaded', event => {
 </div>
 </div>`;
 
-let customSlideHTML = `<div class="gslide">
+    let customSlideHTML = `<div class="gslide">
     <div class="gslide-inner-content">
         <div class="ginner-container">
             <div class="gslide-media">
@@ -87,6 +87,14 @@ let customSlideHTML = `<div class="gslide">
         dragAutoSnap: true,
         lightboxHTML: customLightboxHTML,
         slideHTML: customSlideHTML,
+        preload: false,
         // skin: 'maru'
     });
+
+    // AOS Scroll
+    AOS.init({
+        once: false, // whether animation should happen only once - while scrolling down
+    });
+
+
 });
