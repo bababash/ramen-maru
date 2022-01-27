@@ -8125,6 +8125,10 @@ fieldset:disabled .btn {
     padding-top: 3rem !important;
 }
 
+.pt-6 {
+    padding-top: 7rem !important;
+}
+
 .pe-0 {
     padding-right: 0 !important;
 }
@@ -10506,6 +10510,9 @@ fieldset:disabled .btn {
     .pt-xl-5 {
         padding-top: 3rem !important;
     }
+    .pt-xl-6 {
+        padding-top: 7rem !important;
+    }
     .pe-xl-0 {
         padding-right: 0 !important;
     }
@@ -11243,11 +11250,13 @@ header.masthead {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    min-height: 40rem;
+    padding-top: 4.5rem;
 }
 
 header.masthead h1,
 header.masthead .h1 {
-    font-size: 2.25rem;
+    font-size: 3rem;
 }
 
 @media (min-width: 992px) {
@@ -11259,10 +11268,6 @@ header.masthead .h1 {
     }
     header.masthead p {
         font-size: 1.15rem;
-    }
-    header.masthead h1,
-    header.masthead .h1 {
-        font-size: 3rem;
     }
 }
 
@@ -11420,4 +11425,12 @@ header.masthead .h1 {
 
 .glightbox-open {
     height: auto;
+}
+
+.masthead-bg {
+    background: linear-gradient( to bottom, rgba(92, 77, 66, 0.3) 0%, rgba(92, 77, 66, 0.3) 100%), url("../assets/img/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
