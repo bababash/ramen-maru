@@ -8126,7 +8126,7 @@ fieldset:disabled .btn {
 }
 
 .pt-6 {
-    padding-top: 7rem !important;
+    padding-top: 6rem !important;
 }
 
 .pe-0 {
@@ -8549,6 +8549,10 @@ fieldset:disabled .btn {
 
 .rounded-3 {
     border-radius: 0.3rem !important;
+}
+
+.rounded-4 {
+    border-radius: 1rem !important;
 }
 
 .rounded-circle {
