@@ -71,6 +71,7 @@
     --bs-body-line-height: 1.5;
     --bs-body-color: #212529;
     --bs-body-bg: #fff;
+    --vh: 1vh;
 }
 
 *,
@@ -11247,14 +11248,17 @@ hr.divider-light {
 }
 
 header.masthead {
-    height: 100vh;
-    padding-bottom: calc(10rem - 4.5rem);
+    /* height: 100vh !important; */
+    /* height: calc(var(--vh, 1vh) * 100); */
+    /* padding-bottom: calc(35rem - 4.5rem); */
     background: linear-gradient( to bottom, rgba(92, 77, 66, 0.3) 0%, rgba(92, 77, 66, 0.3) 100%), url("../assets/img/bg-masthead.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    min-height: 40rem;
+    /* min-height: 35rem; */
+    min-height: -webkit-fill-available;
+    min-height: 100vh;
     padding-top: 4.5rem;
 }
 
@@ -11265,7 +11269,7 @@ header.masthead .h1 {
 
 @media (min-width: 992px) {
     header.masthead {
-        height: 100vh;
+        height: 100vh !important;
         min-height: 40rem;
         padding-top: 4.5rem;
         padding-bottom: 0;
@@ -11437,4 +11441,25 @@ header.masthead .h1 {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+}
+
+#cup {
+    -webkit-animation:spin 3.6s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    25% {
+        -webkit-transform: rotate(20deg);
+    }
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    75% {
+        -webkit-transform: rotate(-20deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+    }    
 }
