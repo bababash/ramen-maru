@@ -11257,7 +11257,7 @@ header.masthead {
     background-attachment: scroll;
     background-size: cover;
     /* min-height: 35rem; */
-    min-height: -webkit-fill-available;
+    min-height: -webkit-fill-available !important;
     min-height: 100vh;
     padding-top: 4.5rem;
 }
